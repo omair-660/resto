@@ -1,0 +1,448 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none} .separator a,.post-body img{-webkit-touch-callout:none;
+      -webkit-user-select:none;
+      -khtml-user-select:none;
+      -moz-user-select:none;
+      -ms-user-select:none;
+      user-select:none;
+      pointer-events:none} pre,kbd,blockquote,table{-webkit-user-select:text;
+        -khtml-user-select:text;
+        -moz-user-select:text;
+        -ms-user-select:text;
+        user-select:text;
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+nav li a{
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  transition: 1s;
+}
+nav h2{
+  padding-left: 5px;
+  font-size: 30px;
+letter-spacing: 1px;
+color: #f9004d;
+}
+nav li a:hover{
+  color: #f9004d;
+  transition: 0.5s;
+
+}
+.landing{
+  background-image: url("photo-15466.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.text-landing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-landing h4 {
+    border-radius: 30px;
+    color: #ddd;
+    background-color: #4b4e5073;
+    font-size: 18px;
+    width: fit-content;
+    margin: 20px auto;
+    letter-spacing: 1px
+
+}
+.text-landing h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+span{
+  color:#f9004dd4
+}
+.text-landing h6 {
+    text-align: center;
+    color: #ccc;
+    background-color: #0000008c;
+    width: fit-content;
+    margin: 20px auto;
+  letter-spacing: 1px
+}
+button{
+
+    color: white;
+    background-color: #f9004d;
+    border: none;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px
+}
+button:hover{
+  color: #f9004d;
+  background-color:white;
+  transition: 0.5s
+}
+.bu{
+text-align: center;
+}
+.history h2 {
+    margin: 20px auto;
+    border-bottom: 2px solid #f9004d;
+    width: fit-content;
+    padding: 14px;
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+.text-hes {
+    display: flex;
+    padding-top: 51px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #424242;
+}
+.text-hes p{
+  width: 500px;
+  padding-left: 20px;
+}
+.history {
+    padding-top: 52px;
+    padding-bottom: 60px
+}
+
+.history img {
+    width: 175px;
+    height: 282px;
+    border-radius: 6px;
+}
+
+.menu {
+    background-color: #eee;
+    margin-top: 30px;
+    padding-bottom: 101px;
+}
+.menu h2 {
+    border-bottom: 2px solid #f9004d;
+    width: fit-content;
+    margin: 33px auto;
+    text-transform: capitalize;
+}
+.menu h3 {
+    text-align: center;
+    padding-bottom: 8px;
+    color: #3a3a3a;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+.menu .contaner{
+  display: flex;
+
+  justify-content: center;
+  height: 101px;
+  margin-top: 12px
+}
+.text-img {
+    background-color: white;
+    width: fit-content;
+    position: relative;
+    box-shadow: 2px 2px 10px #aaa;
+    margin-left: 3%;
+    MARGIN-RIGHT: 3%;
+}
+.text-img h4{
+    margin-left: 102px;
+    margin-top: 3px;
+
+}
+.text-img p{
+  margin-left: 103px;
+    margin-top: 10px;
+  }
+  .text-img img {
+      position: absolute;
+      top: 0;
+      width: 82px;
+      height: 100%;
+  }
+  .landing-2 {
+      background-image: url("supa-solyanka.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+      /*filter: brightness(0.5);*/
+      position: relative;
+
+  }
+  .flox{
+    display: flex;
+  }
+  .text-lan-2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .text-lan-2 h5{
+    color: #ffffff;
+    filter: drop-shadow(2px 4px 6px black);
+    margin-bottom: 10px;
+    background-color: #eeeeee42;
+    width: fit-content;
+
+  }
+  .text-lan-2 h2{
+    text-align: center;
+    color: #ffa0c1;
+    font-size: 30px;
+    font-weight: bolder;
+}
+    .text-lan-2 h6{
+    color: white;
+    background-color: #a19a9aa1;
+    letter-spacing: 1px;
+    }
+  form.flox {
+        margin-top: 18px;
+    }
+  form.flox  input[type="email"],
+    input[type="submit"]
+     {
+        border: none;
+        outline: none;
+        padding: 4px 18px;
+        border-radius: 5px
+    }
+form.flox input[type="email"]:hover{
+   border-bottom: #f9004d 1px solid;
+   transition: 0.5s;
+   background-color: #ffffffbf;
+      }
+form.flox input[type="submit"]{
+  color: white;
+  background-color: #f9004d;
+  font-weight: bold;
+  margin-left: 8px;
+
+}
+form.flox input[type="submit"]:hover{
+  color: #f9004d;
+  background-color: white;
+  transition: 0.5s ;
+}
+.containr-2{
+  background-color: #eee;
+
+}
+.containr-2 h1{
+  margin: 0px auto;
+width: fit-content;
+border-bottom: 2px solid #f9004d;
+}
+.containr {
+    padding-bottom: 60px;
+    padding-top: 100px;
+    DISPLAY: flex;
+}
+.text-img-2 {
+    margin-left: 88px;
+}
+.text-img-2 h3{
+  letter-spacing: 2px;
+  font-size: 26px;
+  text-transform: capitalize;
+  color: rgb(0 0 0 / 88%);
+}
+.text-img-2 p{
+  letter-spacing: 1px
+}
+.text-img-2 h2{
+  text-transform: capitalize;
+  font-size: 26px;
+  color: rgb(0 0 0 / 88%);
+}
+strong {
+    text-transform: capitalize;
+}
+.text-img-2 .cap{
+  text-transform: capitalize;
+}
+.text-img-2 .wid {
+    width: 500px;
+    line-height: 1.6;
+    color: #242424;
+}
+.color{
+  color: #242424;
+}
+.text-img-2 img{
+  border-radius: 6px;
+}
+.form-2 {
+    background-color: #ffffffb0;
+    height: 412px;
+    padding: 19px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px #aaaaaa96;
+}
+
+select#num,
+input[type="date"],
+input[type="time"],
+{
+    width: 153px;
+    outline: none;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+input.SUB{
+  width: 153px;
+  outline: none;
+  border: none;
+  margin-bottom: 12px;
+  background-color: #f9004d;
+  color: white;
+}
+input.SUB:hover{
+  background-color: transparent;
+  color: #f9004d;
+  border:1px solid #f9004d;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact {
+    TEXT-ALIGN: center;
+    padding-bottom: 100px
+}
+.contact h1{
+    border-bottom: 2px solid #f9004d;
+    width: fit-content;
+    margin: 30px auto;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.contact-me input[type="text"],
+input[type="email"],
+input[type="submit"]{
+    BORDER: 1px solid #aaa;
+    outline: none;
+    padding: 3px 20px;
+    border-radius: 6px;
+    margin-top: 9px;
+}
+.contact-me input[type="submit"]{
+  background-color: #f9004d;
+  color: white;
+}
+.contact-me input[type="submit"]:hover{
+  background-color: transparent;
+  color: #f9004d;
+  border:1px solid #f9004d;
+  cursor: pointer;
+  transition: 0.5s;
+}
+footer {
+    text-align: center;
+    padding-bottom: 50PX
+}
+footer h5 {
+    TEXT-TRANSFORM: capitalize;
+    color:#56494e;
+}
+footer h6 {
+    margin-top: 9px;
+    color:  #e91e63;
+}
+footer img:hover{
+  transform: scale(1.1);
+  transition: 0.5s
+}
+@media (max-width:640px) {
+  nav {
+    flex-wrap: wrap;
+}
+.text-hes{
+  flex-direction: column;
+  width: 100%!important;
+}
+.history img{
+  margin: 0 auto;
+}
+.text-hes p {
+    width: 294px;
+    text-align: center;
+    padding-top: 22px;
+}
+.text-img p {
+    margin-left: 102px;
+    margin-top: 0;
+}
+.containr{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.text-img-2 {
+    text-align: center;
+    margin-left: 0;
+    line-height: 1.8;
+}
+.form-2{
+  margin-top: 37px;
+  height: 100%;
+}
+.text-img-2 .wid{
+  width: 350px;
+}
+select#num {
+    margin-bottom: 12px;
+}
+input[type="date"] {
+    margin-bottom: 11px;
+}
+input[type="time"] {
+    margin-bottom: 12px;
+}
+}
+p.end {
+    background-color: #eeeeee;
+    padding: 31px 0;
+    margin-top: 4px;
+}
+.end a {
+    color: #f9004d;
+}
